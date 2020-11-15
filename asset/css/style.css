@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  background: url('/image/background.jpg') no-repeat center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid wheat;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(240, 248, 121, 0.3);
+}
+
+.key span {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.key kbd {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}

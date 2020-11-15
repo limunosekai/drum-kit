@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./asset/css/style.css">
+  <script src="./asset/js/main.js"></script>
+  <title>Drum-kit</title>
+</head>
+<body>
+  <div class="container">
+    <div class="key" data-key="65">
+      <kbd>a</kbd>
+      <span class="sound">Clap</span>
+    </div>
+    <div class="key" data-key="83">
+      <kbd>s</kbd>
+      <span class="sound">Crash</span>
+    </div>
+    <div class="key" data-key="68">
+      <kbd>d</kbd>
+      <span class="sound">Hihat</span>
+    </div>
+    <div class="key" data-key="70">
+      <kbd>f</kbd>
+      <span class="sound">Kick</span>
+    </div>
+    <div class="key" data-key="71">
+      <kbd>g</kbd>
+      <span class="sound">Openhat</span>
+    </div>
+    <div class="key" data-key="72">
+      <kbd>h</kbd>
+      <span class="sound">Perc</span>
+    </div>
+    <div class="key" data-key="74">
+      <kbd>j</kbd>
+      <span class="sound">Snare</span>
+    </div>
+  </div>
+
+  <audio src="./audio/clap.wav" data-key="65"></audio>
+  <audio src="./audio/crash.wav" data-key="83"></audio>
+  <audio src="./audio/hihat.wav" data-key="68"></audio>
+  <audio src="./audio/kick.wav" data-key="70"></audio>
+  <audio src="./audio/openhat.wav" data-key="71"></audio>
+  <audio src="./audio/perc.wav" data-key="72"></audio>
+  <audio src="./audio/snare.wav" data-key="74"></audio>
+</body>
+</html>
