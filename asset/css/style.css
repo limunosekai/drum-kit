@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   outline: none;
-  background: url('/image/background.jpg') no-repeat center;
+  background: url('../../image/background.jpg') no-repeat center;
 }
 
 .container {
